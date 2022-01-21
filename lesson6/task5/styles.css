@@ -1,1 +1,31 @@
+li {
+    color: blue;
+}
 
+p {
+    background-color: yellow;
+}
+
+input {
+    border: 3px solid red;
+}
+
+.hello {
+    background-color: white;
+}
+
+#special {
+    border: 2px solid blue;
+}
+
+div p {
+    font-size: 25px;
+}
+
+input[type='text'] {
+    background-color: gray;
+}
+
+h2:nth-child(2) {
+    background-color: blue;
+}
