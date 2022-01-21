@@ -1,4 +1,4 @@
- body {
+  body {
             background-color: #bdc3c7;
         }
         
@@ -45,4 +45,10 @@
         p>em {
             color: white;
             font-size: 20px;
+        }
+        
+        p:nth-child(3) {
+            border: 5px solid white;
+            /* border: 2px solid blue; */
+            /* color: red; */
         }
