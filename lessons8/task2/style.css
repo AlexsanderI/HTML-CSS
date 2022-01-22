@@ -3,8 +3,8 @@
 }
 
 .rectangale {
-    height: 160px;
-    width: 440px;
+    height: 140px;
+    width: 420px;
     background-color: bisque;
     border-width: 10px 20px 10px 20px;
     border-color: firebrick chartreuse burlywood aqua;
@@ -15,4 +15,5 @@
     margin-right: 100px;
     font-size: 24px;
     padding: 20px;
+    box-sizing: content-box;
 }
