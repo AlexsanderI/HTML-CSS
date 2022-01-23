@@ -1,6 +1,6 @@
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 .block_red {
     height: 200px;
@@ -31,7 +31,7 @@
 }
 
 .block_blak {
-    background-color: blue;
+    background-color: black;
     height: 200px;
     float: left;
     width: 20%;
