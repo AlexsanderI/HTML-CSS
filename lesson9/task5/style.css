@@ -20,10 +20,11 @@
     line-height: 40px;
     color: white;
     left: 16px;
+    float: left;
 }
 
 .nav-item {
-    margin-right: 16px;
+    margin-right: 14px;
 }
 
 .content {
