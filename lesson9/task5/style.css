@@ -7,6 +7,7 @@
     background-color: darkturquoise;
     height: 40px;
     z-index: 1;
+    width: 100%;
 }
 
 .navigation {
@@ -42,7 +43,7 @@
     width: 200px;
     /* margin: auto; */
     position: relative;
-    top: calc(50% - 140px);
+    top: calc(50% - 100px);
     left: calc(50% - 100px);
 }
 
