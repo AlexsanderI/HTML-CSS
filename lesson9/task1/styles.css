@@ -1,4 +1,4 @@
-div {
+      div {
             padding: 16px;
         }
         
@@ -47,13 +47,13 @@ div {
         
         .relative-parent {
             position: relative;
-            bottom: 20px;
+            top: 20px;
             left: 50px;
         }
         
         .absolute-parent {
             position: absolute;
-            top: 20px;
+            bottom: 20px;
             right: 50px;
         }
         
