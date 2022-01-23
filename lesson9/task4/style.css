@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.block_red {
+    height: 200px;
+    background-color: red;
+    float: left;
+    width: 20%;
+}
+
+.block_green {
+    height: 200px;
+    background-color: green;
+    float: left;
+    width: 20%;
+}
+
+.block_blue {
+    background-color: blue;
+    height: 200px;
+    float: left;
+    width: 20%;
+}
+
+.block_yellow {
+    background-color: yellow;
+    height: 200px;
+    float: left;
+    width: 20%;
+}
+
+.block_blak {
+    background-color: black;
+    height: 200px;
+    float: left;
+    width: 20%;
+}
