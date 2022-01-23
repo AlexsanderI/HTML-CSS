@@ -11,7 +11,12 @@
     height: 40px;
 }
 
+.nav-list {
+    margin-top: -16px;
+}
+
 .nav-item {
+    margin-right: 16px;
     /* float: left;
             width: 30%; */
     display: inline;
@@ -21,10 +26,6 @@
     color: white;
     left: 16px;
     float: left;
-}
-
-.nav-item {
-    margin-right: 16px;
 }
 
 .content {
@@ -38,7 +39,7 @@
     width: 200px;
     /* margin: auto; */
     position: relative;
-    top: calc(50% - 150px);
+    top: calc(50% - 100px);
     left: calc(50% - 100px);
 }
 
