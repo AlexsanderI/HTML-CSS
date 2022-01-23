@@ -3,8 +3,10 @@
 } */
 
 .header {
+    position: fixed;
     background-color: darkturquoise;
     height: 40px;
+    z-index: 1;
 }
 
 .navigation {
@@ -31,6 +33,7 @@
 .content {
     height: 500px;
     background-color: beige;
+    position: relative;
 }
 
 .head {
