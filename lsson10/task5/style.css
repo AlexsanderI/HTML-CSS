@@ -1,0 +1,20 @@
+body {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.article {
+    padding: 8px;
+    margin: 16px;
+    background-color: bisque;
+    /* display: flex; */
+    flex-shrink: 0;
+    flex-basis: 300px;
+}
