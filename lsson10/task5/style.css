@@ -22,4 +22,5 @@ header {
     /* display: flex; */
     flex-shrink: 0;
     flex-basis: 300px;
+    flex-grow: 1;
 }
