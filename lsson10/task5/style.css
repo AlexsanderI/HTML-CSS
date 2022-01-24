@@ -14,7 +14,8 @@
 header {
     display: flex;
     justify-content: center;
-    padding: 0px 0px 16px 0px;
+    /* flex-direction: column; */
+    align-items: center;
 }
 
 .articles-list {
@@ -23,7 +24,7 @@ header {
 }
 
 .article {
-    padding: 16px 16px 0px 16px;
+    padding: 16px;
     margin: 8px;
     background-color: bisque;
     flex-shrink: 0;
