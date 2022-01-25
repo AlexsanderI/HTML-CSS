@@ -9,7 +9,7 @@ header {
 }
 
 h1 {
-    flex-basis: 300px;
+/*     flex-basis: 300px; */
     /* background-color: green; */
     flex-grow: 1;
     flex-shrink: 0;
