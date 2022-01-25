@@ -4,16 +4,7 @@
 
 header {
     display: flex;
-    text-align: center;
-    /* justify-content: center; */
-}
-
-h1 {
-/*     flex-basis: 300px; */
-    /* background-color: green; */
-    flex-grow: 1;
-    flex-shrink: 0;
-    /* justify-content: center; */
+    justify-content: center;
 }
 
 .article {
@@ -28,5 +19,4 @@ h1 {
 .articles-list {
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: row */
 }
