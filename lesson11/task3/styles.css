@@ -6,17 +6,17 @@
     padding: 16px;
     background-color: darkgreen;
     opacity: 0.8;
-    position: relative;
+    /* position: relative; */
     font-size: 16px;
     color: white;
     padding: 16px;
-    display: inline-block;
+    /* display: inline-block; */
     cursor: pointer;
 }
 
 .dropdown {
-    margin: 16px;
     cursor: pointer;
+    margin: 16px;
 }
 
 .menu-list {
@@ -24,11 +24,11 @@
     padding: 0px;
     background-color: lightcyan;
     color: black;
+    box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 20%);
     min-width: 120px;
     z-index: 1;
     position: absolute;
-    top: 66px;
-    box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 20%);
+    top: 50px;
     display: none;
     /* left: 16px; */
 }
