@@ -4,13 +4,17 @@
 
 header {
     display: flex;
-    justify-content: center;
+    text-align: center;
+    /* justify-content: center; */
 }
 
-
-/* h1 {
-    margin: 0;
-} */
+h1 {
+    flex-basis: 300px;
+    /* background-color: green; */
+    flex-grow: 1;
+    flex-shrink: 0;
+    /* justify-content: center; */
+}
 
 .article {
     margin: 8px;
@@ -24,4 +28,5 @@ header {
 .articles-list {
     display: flex;
     flex-wrap: wrap;
+    /* flex-direction: row */
 }
