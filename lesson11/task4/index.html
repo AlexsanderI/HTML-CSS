@@ -1,28 +1,38 @@
-body {
-    margin: 0px;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.text {
-    margin: 16px;
-    border-bottom: 1px dotted black;
-    position: relative;
-    display: inline-block;
-}
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <style>
+        
+        
+        .text {
+            margin: 16px;
+            border-bottom: 1px dotted black;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .tooltip {
+            position: absolute;
+            background-color: grey;
+            color: white;
+            border-radius: 4px;
+            padding: 8px;
+            bottom: -40px;
+            display: none;
+            max-width: fit-content;
+        }
+        
+        .text:hover .tooltip {
+            display: block;
+        }
+    </style> -->
+</head>
 
-.tooltip {
-    position: absolute;
-    background-color: grey;
-    color: white;
-    border-radius: 4px;
-    padding: 8px;
-    bottom: -40px;
-    display: none;
-    max-width: fit-content;
-}
-
-.text:hover .tooltip {
-    display: block;
-}
+<body>
     <div class="text">
         Hover over me
         <span class="tooltip">I'm a tooltip</span>
