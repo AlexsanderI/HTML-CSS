@@ -3,9 +3,9 @@
 }
 
 header {
-    display: flex;
-    /* text-align: center; */
-    justify-content: center;
+/*     display: flex; */
+    text-align: center;
+/*     justify-content: center; */
     /* background-color: green; */
 }
 
