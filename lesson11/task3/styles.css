@@ -7,8 +7,9 @@
     margin: 16px;
     background-color: darkgreen;
     opacity: 0.5;
+    font-size: 16px;
     color: white;
-    padding: 8px;
+    padding: 16px;
     display: inline-block;
     cursor: pointer;
 }
@@ -28,7 +29,7 @@
 }
 
 .menu-item {
-    padding: 8px;
+    padding: 16px;
 }
 
 .dropdown:hover {
