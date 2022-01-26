@@ -10,7 +10,7 @@
             margin: 0px;
         }
         
-        .tooltip {
+        span {
             position: absolute;
             /* position: relative; */
             background-color: gray;
@@ -26,6 +26,7 @@
         div {
             border-bottom: 1px dotted black;
             margin: 16px;
+            flex-wrap: nowrap;
         }
         
         .text {
@@ -33,6 +34,8 @@
             /* position: absolute; */
             /* text-decoration: underline 1px dotted black; */
             display: inline-block;
+            border-bottom: 1px dotted black;
+            margin: 16px;
         }
         
         .text:hover .tooltip {
