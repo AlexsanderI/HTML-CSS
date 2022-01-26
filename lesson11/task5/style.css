@@ -1,0 +1,16 @@
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    cursor: all-scroll;
+    overflow-y: auto;
+    flex-wrap: nowrap;
+}
+
+.thumb {
+    margin: 8px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
