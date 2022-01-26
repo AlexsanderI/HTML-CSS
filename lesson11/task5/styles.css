@@ -6,6 +6,6 @@
     overflow-y: auto;
 }
 
-.thumb {
+.gallery>img {
     margin: 8px;
 }
