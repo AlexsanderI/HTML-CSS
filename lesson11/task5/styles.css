@@ -3,7 +3,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     cursor: all-scroll;
-    overflow-y: auto;
+/*     overflow-y: auto; */
     flex-wrap: nowrap;
 }
 
