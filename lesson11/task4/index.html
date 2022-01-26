@@ -15,6 +15,7 @@
             position: relative;
             border-bottom: 1px dotted black;
             margin: 16px;
+            display: none;
             flex-wrap: nowrap;
             display: inline-block;
         }
@@ -22,14 +23,13 @@
         .tooltip {
             position: absolute;
             background-color: gray;
-            display: none;
             color: white;
             border-radius: 4px;
             padding: 8px;
             bottom: -40px;
         }
         
-        .text:hover .tooltip {
+        .text:hover .text {
             display: block;
         }
     </style>
