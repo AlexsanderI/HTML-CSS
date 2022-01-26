@@ -1,10 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
 .tooltip {
     position: absolute;
     background-color: gray;
     color: white;
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 4px;
     bottom: -40px;
+    /* display: inline-block; */
     display: none;
 }
 
