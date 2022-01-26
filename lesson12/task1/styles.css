@@ -1,22 +1,36 @@
-.text {
-    position: relative;
-    border-bottom: 1px dotted black;
-    margin: 16px;
-    display: inline-block;
-    display: inline-block;
-    flex-wrap: nowrap;
+html {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
 }
 
-.tooltip {
-    position: absolute;
-    background-color: gray;
-    color: white;
-    display: none;
-    border-radius: 4px;
-    padding: 8px;
-    bottom: -40px;
+section {
+    margin: 32px;
 }
 
-.text:hover .tooltip {
-    display: block;
+h1 {
+    word-spacing: 20px;
+    text-align: center;
+    /* letter-spacing: 5px; */
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 28px;
+}
+
+.tehnology {
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration: ulowercase;
+    opacity: 80%;
+}
+
+.tarnslation {
+    color: grey;
+}
+
+a {
+    text-decoration: none;
 }
