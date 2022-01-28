@@ -10,7 +10,7 @@
     width: 100px;
     height: 100px;
     background-color: coral;
-    margin: 16px;
+    margin-bottom: 16px;
     transition-property: width, opacity;
     opacity: 0.5;
     text-align: center;
