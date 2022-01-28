@@ -2,27 +2,43 @@
     box-sizing: border-box;
 }
 
-body {
-    display: flex;
-    justify-content: space-around;
+.container {
+    margin: 32px;
 }
 
-.fa-battery-full {
-    font-size: 16px;
+.rect {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    margin: 16px;
+    transition-property: width, opacity;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 100px;
+    transition-duration: 2s, 0.5s;
 }
 
-.fa-battery-three-quarters {
-    font-size: 32px;
+.rect:hover {
+    width: 100%;
+    opacity: 1;
 }
 
-.fa-battery-half {
-    font-size: 64px;
+.rect:nth-child(1) {
+    transition-timing-function: linear;
 }
 
-.fa-battery-quarter {
-    font-size: 128px;
+.rect:nth-child(2) {
+    transition-timing-function: ease;
 }
 
-.fa-battery-empty {
-    font-size: 256px;
+.rect:nth-child(3) {
+    transition-timing-function: ease-in;
+}
+
+.rect:nth-child(4) {
+    transition-timing-function: ease-out;
+}
+
+.rect:nth-child(5) {
+    transition-timing-function: ease-in-out;
 }
